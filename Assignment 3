@@ -8,7 +8,7 @@ public static void printPowersOfN(int base, int exponent) {
     }
     
     System.out.println(printPowersOfN(2, 7));
-    System.out.println(printPowersofN(5, 3));
+    System.out.println(printPowersOfN(5, 3));
 }
 
 
