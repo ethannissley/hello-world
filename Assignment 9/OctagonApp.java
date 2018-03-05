@@ -1,11 +1,11 @@
-public class OctagonApp implements Shape {
+public class Octagon implements Shape {
 	
 	private double side1;
 	
-    public OctagonApp(double side1) {
+    public Octagon(double side1) {
     	this.side1 = side1;
-    	
     }
+	
     // returns perimeter
     public double getPerimeter() {
     	return side1 * 8;
