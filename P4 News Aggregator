@@ -1,0 +1,11 @@
+# news.sql
+
+# insert into wn18_Feeds(
+FeedId,
+FeedTitle,
+FeedCategoryID,
+FeedDescription,
+FeedLink,
+FeedDateTime,
+)
+Values(Null,' ',2, '', 'https://',NOW()); 
