@@ -27,3 +27,40 @@ FeedLink,
 FeedDateTime
 )
 Values(Null,'Netflix Shows',2, 'New Shows', 'https://',NOW()); 
+
+
+================================================================================================================================
+
+
+
+
+insert into wn18_Feeds(
+FeedID,
+FeedTitle,
+FeedCategoryID,
+FeedDescription,
+FeedLink,
+FeedDateTime
+)
+values(NULL,'Review: 'A Wrinkle In Time' Delivers Weird, Fun, And Heartfelt Family Entertainment',2,'Storm Reid takes Reese Witherspoon's hand in Disney's A Wrinkle In Time','https://www.forbes.com/sites/markhughes/2018/03/08/review-a-wrinkle-in-time-delivers-weird-fun-and-heartfelt-family-entertainment/#783ddea21eb3', NOW());
+
+insert into wn18_Feeds(
+FeedID,
+FeedTitle,
+FeedCategoryID,
+FeedDescription,
+FeedLink,
+FeedDateTime
+)
+values(NULL,'Oscars 2018: The Winners',2,'The 90th Academy Awards','https://www.nytimes.com/2018/03/04/arts/oscar-winners.html', NOW());
+       
+       
+insert into wn18_Feeds(
+FeedID,
+FeedTitle,
+FeedCategoryID,
+FeedDescription,
+FeedLink,
+FeedDateTime
+)
+values(NULL,'The 8 Best Netflix Shows And Movies Debuting March 2018',2,'The standout movies, shows and documentaries','https://www.huffingtonpost.com/entry/netflix-shows-movies-march_us_5a9eb3b9e4b0479c025711b9', NOW());
