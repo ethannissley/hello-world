@@ -6,7 +6,7 @@ FeedDescription,
 FeedLink,
 FeedDateTime
 )
-Values(Null,'Movie Review', 2, 'New Movies', 'https://news.google.com/news/rss/search/section/q/wrinkle%20in%20time/wrinkle%20in%20time?hl=en&gl=US&ned=us',NOW()); 
+Values(Null,'Movie Review', 2, 'New Movies', 'https://news.google.com/news/rss/search/section/q/review/review?hl=en&gl=US&ned=us',NOW()); 
 
 insert into wn18_Feeds(
 FeedID,
