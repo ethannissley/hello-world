@@ -1,11 +1,29 @@
-# news.sql
-
-# insert into wn18_Feeds(
-FeedId,
+insert into wn18_Feeds(
+FeedID,
 FeedTitle,
 FeedCategoryID,
 FeedDescription,
 FeedLink,
-FeedDateTime,
+FeedDateTime
 )
-Values(Null,' ',2, '', 'https://',NOW()); 
+Values(Null,'Movie Review', 2, 'New Movies', 'https://www.wsj.com/articles/a-wrinkle-in-time-review-disney-trips-on-a-tesseract-1520531166',NOW()); 
+
+insert into wn18_Feeds(
+FeedID,
+FeedTitle,
+FeedCategoryID,
+FeedDescription,
+FeedLink,
+FeedDateTime
+)
+Values(Null,'Oscars',2, 'Red Carpet', 'https://',NOW()); 
+
+insert into wn18_Feeds(
+FeedID,
+FeedTitle,
+FeedCategoryID,
+FeedDescription,
+FeedLink,
+FeedDateTime
+)
+Values(Null,'Netflix Shows',2, 'New Shows', 'https://',NOW()); 
