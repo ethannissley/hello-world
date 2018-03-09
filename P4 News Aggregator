@@ -6,7 +6,7 @@ FeedDescription,
 FeedLink,
 FeedDateTime
 )
-Values(Null,'Movie Review', 2, 'New Movies', 'https://www.wsj.com/articles/a-wrinkle-in-time-review-disney-trips-on-a-tesseract-1520531166',NOW()); 
+Values(Null,'Movie Review', 2, 'New Movies', 'https://',NOW()); 
 
 insert into wn18_Feeds(
 FeedID,
